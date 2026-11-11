@@ -154,7 +154,10 @@ def pagina(lg, pie404=False):
 {tarjetas}
 </main>
 <footer class="pie">
-  <a href="mailto:{CORREO}">{t["contacto"]}: {CORREO}</a>
+  <a class="correo" href="mailto:{CORREO}" aria-label="{t["contacto"]}: {CORREO}">
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+    {CORREO}
+  </a>
 </footer>
 <script src="/yo.js" defer></script>
 </body>
