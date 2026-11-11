@@ -122,3 +122,5 @@ a{color:inherit}
 .frase-fila{position:relative;z-index:2;margin-top:calc(var(--fs) * -.46 - 19px)}
 .revés{background:rgba(6,40,31,.55);backdrop-filter:blur(2px)}
 .cima{padding-bottom:12px}
+
+.pie{justify-content:center}

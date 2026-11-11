@@ -154,7 +154,6 @@ def pagina(lg, pie404=False):
 {tarjetas}
 </main>
 <footer class="pie">
-  <span>{t["pie"]}</span>
   <a href="mailto:{CORREO}">{t["contacto"]}: {CORREO}</a>
 </footer>
 <script src="/yo.js" defer></script>
