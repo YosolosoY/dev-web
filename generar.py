@@ -4,7 +4,7 @@ from pathlib import Path
 
 BASE = "https://dev.monsalve.com.co"
 RAIZ = Path(__file__).parent
-CORREO = "lince.revision@gmail.com"
+CORREO = "yosolosoy@monsalve.com.co"
 PALABRA = "YOSOLOSOY"
 
 APPS = [
