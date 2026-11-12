@@ -59,5 +59,7 @@
         b.disabled = false;
       }, 950);
     });
+    // Al cargar: a los 0,5 s gira solo, como si se pulsara el botón.
+    setTimeout(function () { b.click(); }, 500);
   }
 })();
