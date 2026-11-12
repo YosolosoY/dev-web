@@ -112,7 +112,7 @@ def pagina(lg, pie404=False):
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{t["titulo"]}</title>
-<meta name="description" content="{t["desc"]}">
+<meta name="description" content="{t["desc"].replace(chr(34), "&quot;")}">
 {'<meta name="robots" content="noindex">' if pie404 else f'<link rel="canonical" href="{t["url"]}">'}
 <link rel="alternate" hreflang="es" href="{BASE}/">
 <link rel="alternate" hreflang="en" href="{BASE}/en/">
@@ -123,7 +123,7 @@ def pagina(lg, pie404=False):
 <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
 <meta property="og:type" content="website">
 <meta property="og:title" content="{t["titulo"]}">
-<meta property="og:description" content="{t["desc"]}">
+<meta property="og:description" content="{t["desc"].replace(chr(34), "&quot;")}">
 <meta property="og:url" content="{t["url"]}">
 <meta property="og:image" content="{BASE}/img/og.png">
 <meta name="twitter:card" content="summary_large_image">
