@@ -29,25 +29,33 @@ APPS = [
          estado={"es": "En prueba cerrada", "en": "Closed testing"},
          datos={"es": ["500 ejercicios", "Según edad, nivel y condiciones médicas", "Mapa del cuerpo de cada clase"],
                 "en": ["500 exercises", "By age, level and medical conditions", "Body map for every class"]}),
+    # Datos sacados de rodador.app (no de memoria). Solo Chile y en español: se dice así en inglés.
+    dict(id="rodador", nombre="Rodador", color="#9EB1FF", tinta="#111113", acento="#111113",
+         play=None,
+         sitio={"es": "https://rodador.app/", "en": "https://rodador.app/"},
+         linea={"es": "Todo tu auto en Chile, en un solo lugar.", "en": "Everything about your car in Chile, in one place."},
+         estado={"es": "Muy pronto en Google Play", "en": "Coming soon to Google Play"},
+         datos={"es": ["Sin anuncios", "La bencina más barata cerca, cada 2 horas", "SOAP, permiso, revisión técnica y licencia a tiempo"],
+                "en": ["No ads", "Cheapest fuel nearby, every 2 hours", "Car papers on time", "Chile only, in Spanish"]}),
 ]
 
 T = {
     "es": dict(
         lang="es", titulo="YosolosoY: apps independientes para Android",
-        desc="Yo solo soy: una sola persona que diseña, programa y publica Lince, Kinstride y FlowMat, tres apps para Android.",
+        desc="Yo solo soy: una sola persona que diseña, programa y publica Lince, Kinstride, FlowMat y Rodador, cuatro apps para Android.",
         etq="Estudio de una sola persona", frase="Yo solo soy.", traduce="",
         explica="Se lee igual al derecho y al revés. Así trabajo: una sola persona, del diseño al código y a la tienda.",
         revés="Leerlo al revés", revés_ok="Igual",
-        apps="Tres apps", sitio="Ver el sitio", play="Google Play", contacto="Escríbeme",
+        apps="Cuatro apps", sitio="Ver el sitio", play="Google Play", contacto="Escríbeme",
         pie="Hecho en Chile.", otro="English", otro_url=f"{BASE}/en/", url=f"{BASE}/", idioma="Idioma",
         pantallas="Capturas de"),
     "en": dict(
         lang="en", titulo="YosolosoY: independent Android apps",
-        desc="Yo solo soy, \"I am only me\": one person designing, coding and publishing Lince, Kinstride and FlowMat, three Android apps.",
+        desc="Yo solo soy, \"I am only me\": one person designing, coding and publishing Lince, Kinstride, FlowMat and Rodador, four Android apps.",
         etq="A one-person studio", frase="Yo solo soy.", traduce=' <span class="trad">(I am only me)</span>',
         explica="Spanish for \"I am only me\". It reads the same forwards and backwards, and so does the work: one person, from design to code to the store.",
         revés="Read it backwards", revés_ok="Same",
-        apps="Three apps", sitio="Visit the site", play="Google Play", contacto="Write to me",
+        apps="Four apps", sitio="Visit the site", play="Google Play", contacto="Write to me",
         pie="Made in Chile.", otro="Español", otro_url=f"{BASE}/", url=f"{BASE}/en/", idioma="Language",
         pantallas="Screenshots of"),
 }
