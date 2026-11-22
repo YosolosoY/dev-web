@@ -34,7 +34,7 @@ APPS = [
          play=None,
          sitio={"es": "https://rodador.app/", "en": "https://rodador.app/"},
          linea={"es": "Todo tu auto en Chile, en un solo lugar.", "en": "Everything about your car in Chile, in one place."},
-         estado={"es": "Muy pronto en Google Play", "en": "Coming soon to Google Play"},
+         estado={"es": "En prueba cerrada", "en": "Closed testing"},
          datos={"es": ["Sin anuncios", "La bencina más barata cerca, cada 2 horas", "SOAP, permiso, revisión técnica y licencia a tiempo"],
                 "en": ["No ads", "Cheapest fuel nearby, every 2 hours", "Car papers on time", "Chile only, in Spanish"]}),
 ]
